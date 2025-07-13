@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- fonts -->
+    <link href="https://fonts.cdnfonts.com/css/mango-vintage-personal-use-only" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/alice-2" rel="stylesheet">
+
+    <!-- style & bootstrap -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css.map">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- icon -->
+    <link rel="icon" href="images/icon.png">
+
+
+
+</head>
+<body class="background-img">
+    <nav class="p-3 mb-0">
+        <ul class="d-flex justify-content-around align-items-center mb-0">
+            <li class="none">
+                <h2 class="mb-0">Blooming Beauty</h2>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <div class="formbox animation text-center mt-4">
+        <div class="container">
+            <div class="row col-md-8 mb-md-3 mt-sm-0 mt-4">
+                <h1 class="mb-5">Login</h1>
+                <form action="login.php" method="POST">
+                    <div class="form-floating mb-2 mb-md-3">
+                        <input type="email" name="email" class="form-control" id="emailInput" placeholder="Email" required>
+                        <label for="emailInput">Email</label>
+                        <p class="error1">Invalid email format. Please enter a valid email address.</p>
+                    </div>
+                    <div class="form-floating mb-2 mb-md-3">
+                        <input type="password" name="password" class="form-control" id="passwordInput" placeholder="Password" required>
+                        <label for="passwordInput">Password</label>
+                        <p class="error2">Password must contain at least 8 characters, including uppercase, lowercase,
+                            and a number or special character.</p>
+                        <p class="error3">Invalid email and password Please try again.</p>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                </form>
+                <p class="mt-4">Don't have an account? <a class="ms-1" href="register.html">Register</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="ani">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3 class="text-white">Links</h3>
+                    <ul>
+                        <li><a class="text-white-50" href="home.html">Home</a></li>
+                        <li><a class="text-white-50" href="products.html">Products</a></li>
+                        <li><a class="text-white-50" href="about.html">About Us</a></li>
+                        <li><a class="text-white-50" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="text-white">Follow Us</h3>
+                    <ul>
+                        <li><a class="text-white-50" href=""><i
+                                    class="fa-brands fa-facebook me-2"></i> Facebook</a>
+                        </li>
+                        <li><a class="text-white-50" href=""><i class="fa-brands fa-instagram me-2"></i> Instagram</a>
+                        </li>
+                        <li><a class="text-white-50" href=""><i
+                                    class="fa-brands fa-pinterest me-2"></i> Pinterest</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="text-white">Team Members</h3>
+                    <ul>
+                        <li><a class="text-white-50" href="about.html#randima">Randima Nikapitiya</a></li>
+                        <li><a class="text-white-50" href="about.html#gaganthara">Gaganthara Suraweera</a></li>
+                        <li><a class="text-white-50" href="about.html#gagani">Gagani Jayasekara</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="JS/form_validation.js"></script>
+</body>
+
+</html>

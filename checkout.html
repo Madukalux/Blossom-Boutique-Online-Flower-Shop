@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>checkout</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font -->
+    <link href="https://fonts.cdnfonts.com/css/mango-vintage-personal-use-only" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/alice-2" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css.map">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- icon -->
+    <link rel="icon" href="images/icon.png">
+</head>
+
+<body class="background-img" id="checkout">
+    <!-- header -->
+    <nav class="tranparent-nav p-3 mb-4">
+        <ul class="d-flex justify-content-around align-items-center mb-0">
+            <li><a style="font-weight: normal;" href="home.html">Home</a></li>
+            <li><a style="font-weight: normal;" href="products.html">Products</a></li>
+            <li class="none">
+                <h2 class="mb-0">Blooming Beauty</h2>
+            </li>
+            <li><a style="font-weight: normal;" href="about.html">About Us</a></li>
+            <li><a style="font-weight: normal;" href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container_checkout" id="main-div">
+        <form action="checkout.php" method="POST">
+            <div class="checkout-flex-row">
+                <div class="checkout-flex-col width-40">
+                    <div><h2>Checkout</h2></div>
+
+                    <div class="checkout-flex-row">
+                        <div class="checkout-flex-col width-40">
+                            <div>
+                                <label for="first_name"><h4>First Name</h4></label>
+                                <input id="first_name" type="text" name="first_name" required>
+                            </div>
+
+                            <div>
+                                <label for="last_name"><h4>Last Name</h4></label>
+                                <input id="last_name" type="text" name="last_name" required>
+                            </div>
+
+                            <div>
+                                <label for="governorate"><h4>Governorate</h4></label>
+                                <input id="governorate" type="text" name="governorate" required>
+                            </div>
+
+                            <div>
+                                <label for="phoneNumber"><h4>Phone Number</h4></label>
+                                <input id="phoneNumber" type="text" name="phone_number" required>
+                            </div>
+
+                            <div>
+                                <label for="email"><h4>Email Address</h4></label>
+                                <input id="email" type="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="checkout-flex-col width-40">
+                            <div>
+                                <label for="date"><h4>Date</h4></label>
+                                <input type="date" name="delivery_date" required>
+                            </div>
+
+                            <div>
+                                <label for="notes"><h4>Order Notes</h4></label>
+                                <textarea id="notes" name="notes"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="checkout_submit">
+                        <input type="submit" value="Place Order">
+                        <p>Note: Payments are upon delivery</p>
+                    </div>
+                </div>
+
+                <div id="order_details">
+                    <img src="./images/p1 (1).jpg" height="400px">
+                    <div class="text">
+                        <p>Vibrant Charm</p>
+                        <span>LKR 6000.00</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        </form>
+
+
+    </div>
+
+
+
+
+
+    <!-- footer -->
+<footer class="ani mt-5">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3 class="text-white">Links</h3>
+                <ul>
+                    <li><a class="text-white-50" href="home.html">Home</a></li>
+                    <li><a class="text-white-50" href="products.html">Products</a></li>
+                    <li><a class="text-white-50" href="about.html">About Us</a></li>
+                    <li><a class="text-white-50" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h3 class="text-white">Follow Us</h3>
+                <ul>
+                    <li><a class="text-white-50" href="https://www.facebook.com/"><i class="fa-brands fa-facebook me-2"></i> Facebook</a>
+                    </li>
+                    <li><a class="text-white-50" href=""><i class="fa-brands fa-instagram me-2"></i> Instagram</a>
+                    </li>
+                    <li><a class="text-white-50" href="https://www.pinterest.com/zlakurchik/"><i class="fa-brands fa-pinterest me-2"></i> Pinterest</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h3 class="text-white">Team Members</h3>
+                <ul>
+
+             
+                    <li><a class="text-white-50" href="about.html#randima">Randima Nikapitiya</a></li>
+                    <li><a class="text-white-50" href="about.html#gaganathara">Gaganthara Suraweera</a></li>
+                    <li><a class="text-white-50" href="about.html#gagani">Gagani Jayasekara</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+    <script src="JS/checkout/checkout.js"></script>
+    <script src="JS/checkout/form_validation.js"></script>
+
+</body>
+
+</html>

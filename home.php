@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blooming Beauty</title>
+
+
+    <!-- Font -->
+    <link href="https://fonts.cdnfonts.com/css/mango-vintage-personal-use-only" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/alice-2" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css.map">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- icon -->
+    <link rel="icon" href="images/icon.png">
+</head>
+
+<body class="background-color">
+    <nav class="p-3 mb-0">
+        <ul class="d-flex justify-content-around align-items-center mb-0">
+            <li><a href="home.php">Home</a></li>
+            <li><a href="products.php">Products</a></li>
+            <li class="none">
+                <h2 class="mb-0">Blooming Beauty</h2>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="logout.php" class="btn btn-outline-danger btn-sm ms-3">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="home animation">
+        <div class="text-center head-title">
+            <h2 class="mb-0">Blooming Beauty</h2>
+            <p class="mb-5">Our love language is gifting flowers</p>
+            <a href="products.php">Shop Now !</a>
+        </div>
+    </div>
+
+    <div class="collection ani text-center mt-5">
+        <h2>Our Collection</h2>
+        <div class="container">
+            <div class="boxex row mt-4 mb-3">
+                <div class="image col-sm-12 col-md-4">
+                    <img src="images/p1 (2).jpg" alt="">
+                    <div class="text">
+                        <h2 class="name">Pure White</h2>
+                        <p class="price">LKR 2000.00</p>
+                        <a href="checkout.html" class="mb-3">Get Now!</a>
+                    </div>
+                </div>
+                <div class="image col-sm-12 col-md-4 mb-5 mt-5 m-sm-0">
+                    <img src="images/p1 (3).jpg" alt="">
+                    <div class="text">
+                        <h2 class="name">Vibarent Charm</h2>
+                        <p class="price">LKR 1500.00</p>
+                        <a href="checkout.html " class="mb-3">Get Now!</a>
+                    </div>
+                </div>
+                <div class="image col-sm-12 col-md-4">
+                    <img src="images/p1 (4).jpg" 5alt="">
+                    <div class="text">
+                        <h2 class="name">Lilly Bloom</h2>
+                        <p class="price">LKR 1000.00</p>
+                        <a href="checkout.html" class="mb-3">Get Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="onsale ani mt-5">
+        <div class="text">
+            <h2>ON SALE</h2>
+            <p>50% of our bouquets are on sale now!!</p>
+            <a href="products.html">Shop Now</a>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="ani">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3 class="text-white">Links</h3>
+                    <ul>
+                        <li><a class="text-white-50" href="home.html">Home</a></li>
+                        <li><a class="text-white-50" href="products.html">Products</a></li>
+                        <li><a class="text-white-50" href="about.html">About Us</a></li>
+                        <li><a class="text-white-50" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="text-white">Follow Us</h3>
+                    <ul>
+                        <li><a class="text-white-50" href=""><i
+                                    class="fa-brands fa-facebook me-2"></i> Facebook</a>
+                        </li>
+                        <li><a class="text-white-50" href=""><i class="fa-brands fa-instagram me-2"></i> Instagram</a>
+                        </li>
+                        <li><a class="text-white-50" href=""><i
+                                    class="fa-brands fa-pinterest me-2"></i> Pinterest</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="text-white">Team Members</h3>
+                    <ul>
+                        <li><a class="text-white-50" href="about.html#randima">Randima Nikapitiya</a></li>
+                        <li><a class="text-white-50" href="about.html#gaganthara">Gaganthara Suraweera</a></li>
+                        <li><a class="text-white-50" href="about.html#gagani">Gagani Jayasekara</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="JS/main.js"></script>
+    <script src="JS/checkout/checkout_home.js"></script>
+</body>
+
+</html>
